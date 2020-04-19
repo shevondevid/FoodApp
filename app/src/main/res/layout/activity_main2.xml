@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="166dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/themenu">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/baloo"
+                    android:text="Dessert Menu"
+                    android:textColor="#000000"
+                    android:textColorHint="@android:color/background_dark"
+                    android:textSize="22sp" />
+
+            </RelativeLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:alignmentMode="alignMargins"
+                app:columnCount="2"
+                app:columnOrderPreserved="false"
+                app:rowCount="3">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="12dp"
+                            android:background="#712828"
+                            android:src="@drawable/dessert" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/baloo"
+                            android:text="Double Cheese Burger"></TextView>
+
+                        <TextView
+                            android:id="@+id/Quantity1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="sausage gravy,cheese"
+                            app:fontFamily="sans-serif"></TextView>
+
+
+                        <EditText
+                            android:id="@+id/editText5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/aclonica"
+                            android:inputType="textPersonName"
+                            android:text="@string/Quantity" />
+
+                        <Button
+                            android:layout_width="72dp"
+                            android:layout_height="39dp"
+                            android:layout_marginTop="12dp"
+                            android:backgroundTint="#CDDC39"
+                            android:fontFamily="@font/baloo"
+                            android:text="ORDER"
+                            android:textColor="#000000"
+                            android:textColorHint="#000000"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="12dp"
+                            android:src="@drawable/dessert" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/baloo"
+                            android:text="Double Cheese Burger"></TextView>
+
+                        <TextView
+                            android:id="@+id/Quantity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="sausage gravy,cheese"></TextView>
+
+
+                        <EditText
+                            android:id="@+id/editText4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/aclonica"
+                            android:inputType="textPersonName"
+                            android:text="@string/Quantity" />
+
+                        <Button
+                            android:layout_width="72dp"
+                            android:layout_height="39dp"
+                            android:layout_marginTop="12dp"
+                            android:backgroundTint="#CDDC39"
+                            android:fontFamily="@font/baloo"
+                            android:text="ORDER"
+                            android:textColor="#000000"
+                            android:textColorHint="#000000"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="12dp"
+                            android:src="@drawable/dessert" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/baloo"
+                            android:text="Double Cheese Burger"></TextView>
+
+                        <TextView
+                            android:id="@+id/Quantity2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="sausage gravy,cheese"></TextView>
+
+
+                        <EditText
+                            android:id="@+id/editText6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/aclonica"
+                            android:inputType="textPersonName"
+                            android:text="@string/Quantity" />
+
+                        <Button
+                            android:layout_width="72dp"
+                            android:layout_height="39dp"
+                            android:layout_marginTop="12dp"
+                            android:backgroundTint="#CDDC39"
+                            android:fontFamily="@font/baloo"
+                            android:text="ORDER"
+                            android:textColor="#000000"
+                            android:textColorHint="#000000"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="12dp"
+                            android:src="@drawable/dessert" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/baloo"
+                            android:text="Double Cheese Burger"></TextView>
+
+                        <TextView
+                            android:id="@+id/Quantity3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="sausage gravy,cheese"></TextView>
+
+
+                        <EditText
+                            android:id="@+id/editText7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/aclonica"
+                            android:inputType="textPersonName"
+                            android:text="@string/Quantity" />
+
+                        <Button
+                            android:layout_width="72dp"
+                            android:layout_height="39dp"
+                            android:layout_marginTop="12dp"
+                            android:backgroundTint="#CDDC39"
+                            android:fontFamily="@font/baloo"
+                            android:text="ORDER"
+                            android:textColor="#000000"
+                            android:textColorHint="#000000"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="12dp"
+                            android:src="@drawable/dessert" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/baloo"
+                            android:text="Double Cheese Burger"></TextView>
+
+                        <TextView
+                            android:id="@+id/Quantity4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="sausage gravy,cheese"></TextView>
+
+
+                        <EditText
+                            android:id="@+id/editText8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/aclonica"
+                            android:inputType="textPersonName"
+                            android:text="@string/Quantity" />
+
+                        <Button
+                            android:layout_width="72dp"
+                            android:layout_height="39dp"
+                            android:layout_marginTop="12dp"
+                            android:backgroundTint="#CDDC39"
+                            android:fontFamily="@font/baloo"
+                            android:text="ORDER"
+                            android:textColor="#000000"
+                            android:textColorHint="#000000"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="6dp"
+                    app:layout_columnWeight="1"
+                    app:layout_rowWeight="1">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="12dp"
+                            android:src="@drawable/dessert" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="@font/baloo"
+                            android:text="Double Cheese Burger"></TextView>
+
+                        <TextView
+                            android:id="@+id/Quantity5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="sausage gravy,cheese"></TextView>
+
+
+                        <EditText
+                            android:id="@+id/editText9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ems="10"
+                            android:fontFamily="@font/aclonica"
+                            android:inputType="textPersonName"
+                            android:text="@string/Quantity" />
+
+                        <Button
+                            android:layout_width="72dp"
+                            android:layout_height="39dp"
+                            android:layout_marginTop="12dp"
+                            android:backgroundTint="#CDDC39"
+                            android:fontFamily="@font/baloo"
+                            android:text="ORDER"
+                            android:textColor="#000000"
+                            android:textColorHint="#000000"
+                            android:textSize="12sp" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </androidx.gridlayout.widget.GridLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
